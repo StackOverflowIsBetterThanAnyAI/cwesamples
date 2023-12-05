@@ -1,5 +1,6 @@
 /*
  * CWE-121: Stack-based Buffer Overflow
+ * https://cwe.mitre.org/data/definitions/121.html
 */
 
 #include <string.h>
