@@ -35,7 +35,7 @@ def safe(data, param):
 if __name__ == '__main__':
     param = sys.argv[1]
 
-    #unsafe(infinite_iter(), int(param))
+    unsafe(infinite_iter(), int(param))
     safe(infinite_iter(), int(param))
 
 # Usage nominal : python cli_sample.py 5
