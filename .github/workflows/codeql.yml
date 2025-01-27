@@ -28,6 +28,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
+        queries: security-extended
         
     - if: matrix.build-mode == 'manual'
       shell: bash
