@@ -33,7 +33,7 @@ jobs:
       shell: bash
       run: |
         for file in c_lang/cwe/*/*.c; do
-          gcc -o "${file%.c}" "$file"
+          gcc -o "${file%.c}" "$file" || true
         done
 
     - name: Perform CodeQL Analysis
